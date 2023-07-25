@@ -1,0 +1,34 @@
+import React from "react";
+import { FaBars, FaTimes} from "react-icons/fa";
+import "../style/style.css";
+import { useRef } from "react";
+
+const NavBar = () => {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  }
+  return (
+    <header className=" navBar flex justify-between items-center px-16 pt-8 bg-gray-900">
+      <div className="logoDiv">
+        <h1 className="logo text-[25px] bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"><strong>Term</strong>Time</h1>
+      </div>
+      <nav className="menu flex gap-12" ref={navRef}>
+        <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">Home</li>
+        <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">Blog</li>
+        <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">About Us</li>
+        <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">Contact Us</li>
+        <button className=" nav-btn nav-close-btn" onClick={showNavbar}>
+          <FaTimes/>
+        </button>
+      </nav>
+      <button className=" nav-btn" onClick={showNavbar}>
+        <FaBars/>
+      </button>
+
+    </header>
+  );
+};
+
+export default NavBar;
