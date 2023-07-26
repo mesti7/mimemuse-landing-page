@@ -7,10 +7,10 @@ export const Home = () => {
     <div className=" bg-gray-900">
       <div
 
-        className=" w-full h-screen bg-no-repeat bg-center"
+        className="  w-full h-screen bg-no-repeat bg-center "
         style={{ backgroundImage: `url(${hero})` }}
       >
-        <h1 className=" text-center text-6xl font-bold pt-48 bg-gradient-to-tl  from-red-500 to-blue-500 text-transparent bg-clip-text">
+        <h1 className=" px-6 text-center text-4xl md:text-6xl font-bold pt-48 bg-gradient-to-tl  from-red-500 to-blue-500 text-transparent bg-clip-text ">
           Ready to Study Aboard
         </h1>
         <h3 className=" text-center pt-5 text-white ">
@@ -83,13 +83,13 @@ export const Home = () => {
 
       <div className="max-w-[1240px] m-auto">
         <h1
-          className="text-4xl py-[2rem] pb-[3rem] font-bold w-[400px] block bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
+          className=" pl-6 pr-6 text-4xl py-[2rem] pb-[3rem] font-bold bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
           data-aos="fade-down"
         >
           The values that holds us true
         </h1>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 items-center">
-          <div className="mx-8 singleGrid rounded-[10px] hover:bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={simple} alt="" />
@@ -98,13 +98,13 @@ export const Home = () => {
                 Simplicity
               </span>
             </div>
-            <p className=" text-[16px] text-white opacity-[.7] py-[1rem] font-semibold">
+            <p className=" text-sm md:text-[16px] text-white opacity-[.7] py-[1rem] font-semibold">
               Things beinf made beautiful simple are at the heart of everything
               we do
             </p>
           </div>
 
-          <div className="mx-8 singleGrid rounded-[10px] hover:bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
@@ -113,13 +113,13 @@ export const Home = () => {
                 Social Good
               </span>
             </div>
-            <p className=" text-[16px] text-white opacity-[.7] py-[1rem] font-semibold" >
+            <p className="text-sm md:text-[16px] text-white opacity-[.7] py-[1rem] font-semibold" >
               we believe in making things better for everyone, even if just by a
               little bit!
             </p>
           </div>
 
-          <div className="mx-8 singleGrid rounded-[10px] hover:bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={trust} alt="" />
@@ -128,7 +128,7 @@ export const Home = () => {
                 Trust
               </span>
             </div>
-            <p className=" text-[16px] text-white opacity-[.7] py-[1rem] font-semibold">
+            <p className=" text-sm md:text-[16px]  text-white opacity-[.7] py-[1rem] font-semibold">
               We work on the basis of creating trust which can be nurtured
               through authenticity and transparency
             </p>
@@ -138,12 +138,12 @@ export const Home = () => {
 
       <div className="max-w-[1240px] m-auto">
         <h1
-          className="text-4xl pb-[.5rem] font-bold w-[400px] block mt-12 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
+          className=" pl-6 pr-6 text-4xl pb-[.5rem] font-bold mt-12 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
           data-aos="fade-down"
         >
           Courses
         </h1>
-        <h2 className="text-2xl font-semibold text-white" data-aos="fade-down">
+        <h2 className=" pr-6 pl-6 text-2xl font-semibold text-white" data-aos="fade-down">
           Our Recommended Courses
         </h2>
       </div>

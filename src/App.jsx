@@ -6,7 +6,7 @@ import { Home } from "./Home/Home";
 import NavBar from "./Component/NavBar/NavBar";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Courses from "./Component/Courses/Courses";
+import Courses from "../src/Component/Courses/Courses";
 // import Countries from "./Component/Countries/Countries";
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
     <div>
       <NavBar/>
       <Home />
-      <Courses/>
+      <Courses />
       {/* <Countries/> */}
       <Product />
       <AboutUs />

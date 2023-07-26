@@ -10,11 +10,12 @@ const NavBar = () => {
     navRef.current.classList.toggle("responsive_nav");
   }
   return (
-    <header className=" navBar flex justify-between items-center px-16 pt-8 bg-gray-900">
+    <header className="navBar flex justify-between items-center px-12 pt-8 bg-gray-900">
       <div className="logoDiv">
         <h1 className="logo text-[25px] bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"><strong>Term</strong>Time</h1>
       </div>
-      <nav className="menu flex gap-12" ref={navRef}>
+      <div>
+      <nav className="menu flex gap-12 pt-11 " ref={navRef} >
         <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">Home</li>
         <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">Blog</li>
         <li className="menuList bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">About Us</li>
@@ -23,10 +24,10 @@ const NavBar = () => {
           <FaTimes/>
         </button>
       </nav>
-      <button className=" nav-btn" onClick={showNavbar}>
+      <button className=" nav-btn " onClick={showNavbar}>
         <FaBars/>
       </button>
-
+      </div>
     </header>
   );
 };

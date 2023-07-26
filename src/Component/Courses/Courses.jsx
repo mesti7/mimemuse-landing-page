@@ -1,8 +1,8 @@
 import React from "react";
 import c1 from "../Assets/c1.jpg";
-// import intensiveenglish from "../Assets/intensiveenglish.jpg";
-// import superintensiveenglish from "../Assets/superintensiveenglish.jpg";
-// import businessenglish from "../Assets/businessenglish.jpg";
+import c2 from "../Assets/c2.avif";
+import c3 from "../Assets/c3.avif";
+import c4 from "../Assets/c4.avif";
 // import ieltspreparation from "../Assets/ieltspreparation.jpg";
 // import professionalenglish from "../Assets/professionalenglish.jpg";
 // import academicenglish from "../Assets/academicenglish.jpg";
@@ -14,28 +14,36 @@ function Courses() {
       <div className="max-w-[1240px] m-auto">
         <br />
         <br />
-        <div className=" flex grid-cols-4 gap-4 sm:grid-cols-1 mg:grid-cols-2 lg:grid-cols-4 align-middle">
-          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-5">
-            <div style={{ backgroundImage: `url(${c1})`}} className="rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-lg text-gray-900 text-center p-20">
+        <div className=" grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4 mx-5">
+          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-4">
+            <div style={{ backgroundImage: `url(${c1})`}} className="rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56">
+            <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
               General English
+              </div>
             </div>
           </div>
 
-          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-5">
-            <div style={{ backgroundImage: `url(${c1})` }} className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-lg text-gray-900 text-center p-20">
-              General English
+          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-4">
+            <div style={{ backgroundImage: `url(${c2})` }} className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56">
+             <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
+             super intensive english
+             </div>
             </div>
           </div>
 
-          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-5">
-            <div style={{ backgroundImage: `url(${c1})` }} className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-lg text-gray-900 text-center p-20">
-              General English
+          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-4">
+            <div style={{ backgroundImage: `url(${c3})` }} className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56">
+            <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
+            ielts preparation
+            </div>
             </div>
           </div>
 
-          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-5">
-            <div style={{ backgroundImage: `url(${c1})` }} className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-lg text-gray-900 text-center p-20">
-              General English
+          <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-4">
+            <div style={{ backgroundImage: `url(${c4})` }} className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56">
+            <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
+            professional english
+            </div>
             </div>
           </div>
         </div>

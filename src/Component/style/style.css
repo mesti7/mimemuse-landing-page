@@ -8,8 +8,7 @@
 
 header {
 
-  height: 80px;
-  padding: 0 2rem;
+  height: 60px;
   background-color: gray-900;
   color: white;
 }
@@ -24,15 +23,16 @@ nav a:hover {
 }
 
 header .nav-btn {
-  padding: 5px;
+    border-radius: 0.5rem;
+  padding: 0.3rem;
   cursor: pointer;
-  background: transparent;
+  background-image: linear-gradient(to bottom right, rgb(244, 67, 54), rgb(33, 150, 243));
   border: none;
   outline: none;
   color: white;
   visibility: hidden;
   opacity: 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 @media only screen and (max-width: 1024px) {
