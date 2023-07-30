@@ -34,7 +34,7 @@ function AboutUs() {
         >
           About TheTermTime
         </div>
-        <h1 className="text-3xl py-[2rem] pb-[3rem] font-bold w-[400px] block mt-12 ml-6 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text ">
+        <h1 className="text-3xl py-[2rem] pb-[3rem] font-bold w-[400px] mt-12 ml-6 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text ">
           What’s TheTermTime?
         </h1>
         <div className="text-xl font-normal text-white ml-5 ">
@@ -47,7 +47,7 @@ function AboutUs() {
           graduation at their preferred destination.
         </div>
         <h2
-          className="text-3xl py-[2rem] pb-[3rem] font-bold w-[400px] block mt-12 ml-6 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text "
+          className="text-3xl py-[2rem] pb-[3rem] font-bold w-[400px] mt-12 ml-6 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text "
         >
           Description
         </h2>

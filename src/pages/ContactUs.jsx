@@ -20,11 +20,12 @@ const ContactUs = () => {
             </div>
           </div>
         </header>
+        <br />
         <div className="bg-gray-900 min-h-screen w-full grid place-items-center">
           <div className="bg-white rounded-md shadow-md flex flex-col md:flex-row">
             {/* contact information */}
             <div
-              className="bg-gradient-to-br from-red-500 to-blue-500 p-8 md:hover:scale-y-110 rounded-md transition md:block px-6 py-4"
+              className="bg-gradient-to-br from-red-500 to-blue-500 p-8 md:hover:scale-y-110 rounded-md transition px-6 py-4"
               id="contact_info"
             >
               <div className="flex justify-between">
