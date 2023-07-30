@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillInstagram } from "react-icons/ai";
 import { BsLinkedin } from "react-icons/bs";
-import hero from "../Assets/abouthero.png";
+import hero from "../Assets/contacthero.png";
 import NavBar from "../Component/NavBar";
 import FooterDiv from "../Component/FooterDiv";
 
