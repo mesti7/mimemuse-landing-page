@@ -31,9 +31,9 @@ export const Home = () => {
               Lets get started
             </h3>
           </div>
-          <div className="grid lg:px-8 lg:py-12 xl:py-5">  
-            <button className=" border-[2px] rounded-[10px] text-[13px] md:text-[18px] font-semibold text-white bg-gradient-to-br hover:bg-gray-900 border-white px-4 md:px-8 py-4">
-              Download App
+          <div className="grid lg:px-8 lg:py-12 xl:py-5">
+            <button className=" border-[2px] rounded-[10px] text-[16px] md:text-[18px] font-semibold text-white bg-gradient-to-br hover:bg-gray-900 border-white sm:px-2 sm:py-2 px-4 md:px-8 py-4">
+              Download
             </button>
           </div>
         </div>
@@ -42,15 +42,12 @@ export const Home = () => {
       <div className="max-w-[1240px] m-auto">
         <h1
           className=" pl-6 pr-6 text-4xl py-[2rem] pb-[3rem] font-bold bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
-          data-aos="zoom-out"
+          data-aos="fade-down"
         >
           The values that holds us true
         </h1>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 items-center">
-          <div
-            className=" mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]"
-            data-aos="zoom-in"
-          >
+          <div className=" mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={simple} alt="" />
@@ -65,10 +62,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div
-            className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]"
-            data-aos="zoom-in"
-          >
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={trust} alt="" />
@@ -82,10 +76,7 @@ export const Home = () => {
               through authenticity and transparency
             </p>
           </div>
-          <div
-            className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]"
-            data-aos="zoom-in"
-          >
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
@@ -153,21 +144,19 @@ export const Home = () => {
       </div> */
 }
 
-
-  // <div className="card max-w-[1240px] m-auto mt-[2rem] flex justify-between bg-blueColor p-[5rem] rounded-[10px]">
-  //       <div>
-  //         <h1 className=" bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text text-[30px] font-bold">
-  //           Ready to switch a career
-  //         </h1>
-  //         <h2 className=" text-textColor text-[25px] font-bold">
-  //           Lets get started!
-  //         </h2>
-  //       </div>
-  //       <button className=" border-[2px]  rounded-[10px] py-[2px] px-[30px] text-[18px] font-semibold text-blueColor hover:bg-white border-blueColor ">
-  //         Download App
-  //       </button>
-  //     </div>
-
+// <div className="card max-w-[1240px] m-auto mt-[2rem] flex justify-between bg-blueColor p-[5rem] rounded-[10px]">
+//       <div>
+//         <h1 className=" bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text text-[30px] font-bold">
+//           Ready to switch a career
+//         </h1>
+//         <h2 className=" text-textColor text-[25px] font-bold">
+//           Lets get started!
+//         </h2>
+//       </div>
+//       <button className=" border-[2px]  rounded-[10px] py-[2px] px-[30px] text-[18px] font-semibold text-blueColor hover:bg-white border-blueColor ">
+//         Download App
+//       </button>
+//     </div>
 
 {
   /* <script>AOS.init();</script> */

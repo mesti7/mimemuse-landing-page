@@ -13,13 +13,13 @@ function Countries() {
 
         <h1
           className=" pl-6 pr-6 text-4xl pb-[.5rem] font-bold mt-12 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
-          data-aos="zoom-out"
+          data-aos="fade-down"
         >
           Countries
         </h1>
         <h2
           className=" pr-6 pl-6 text-2xl font-semibold text-white"
-          data-aos="zoom-out"
+          data-aos="fade-down"
         >
           Our Recommended Courses
         </h2>
@@ -30,7 +30,6 @@ function Countries() {
             <div
               style={{ backgroundImage: `url(${s1})` }}
               className="rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
-              data-aos="zoom-in"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 General English
@@ -42,7 +41,6 @@ function Countries() {
             <div
               style={{ backgroundImage: `url(${s2})` }}
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
-              data-aos="zoom-in"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 super intensive english
@@ -54,7 +52,6 @@ function Countries() {
             <div
               style={{ backgroundImage: `url(${s3})` }}
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
-              data-aos="zoom-in"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 ielts preparation
@@ -66,7 +63,6 @@ function Countries() {
             <div
               style={{ backgroundImage: `url(${s4})` }}
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
-              data-aos="zoom-in"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 professional english
@@ -78,7 +74,6 @@ function Countries() {
             <div
               style={{ backgroundImage: `url(${s5})` }}
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
-              data-aos="zoom-in"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 academic english
@@ -90,7 +85,6 @@ function Countries() {
             <div
               style={{ backgroundImage: `url(${s6})` }}
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
-              data-aos="zoom-in"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 junior summerschool

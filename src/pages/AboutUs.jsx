@@ -21,7 +21,7 @@ function AboutUs() {
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className=" bg-gray-900 rounded-full p-9">
-          <div className=" text-center text-transparent text-6xl font-bold bg-gradient-to-br from-red-500  to-blue-500 bg-clip-text ">
+          <div className=" text-center text-transparent text-4xl md:text-5xl font-bold bg-gradient-to-br from-red-500  to-blue-500 bg-clip-text ">
             About Us
           </div>
         </div>
@@ -29,15 +29,15 @@ function AboutUs() {
       </header>
       <div className="max-w-[1240px] m-auto">
         <div
-          className="text-4xl text-white py-5 m-5 font-bold"
-          data-aos="zoom-out"
+          className="text-4xl text-white mt-12 mx-5 font-bold"
+          data-aos="fade-down"
         >
           About TheTermTime
         </div>
-        <h1 className="text-3xl py-[2rem] pb-[3rem] font-bold w-[400px] mt-12 ml-6 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text ">
-          What’s TheTermTime?
-        </h1>
-        <div className="text-xl font-normal text-white ml-5 ">
+        <div className=" mx-5 text-3xl py-[2rem] pb-[3rem] font-bold bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text ">
+          What’s The Term Time?
+        </div>
+        <div className=" text-base md:text-xl font-normal text-white mx-5">
           An app who connects students to English language schools abroad and
           helps them from application to attending classes in-person at their
           preferred destination. An app that supports students in joining
@@ -46,12 +46,10 @@ function AboutUs() {
           students in joining English language schools from application to
           graduation at their preferred destination.
         </div>
-        <h2
-          className="text-3xl py-[2rem] pb-[3rem] font-bold w-[400px] mt-12 ml-6 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text "
-        >
+        <h2 className="text-3xl py-[2rem] pb-[3rem] font-bold mx-5 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text ">
           Description
         </h2>
-        <div className="text-xl font-normal text-white gap-2 ml-5">
+        <div className="text-base md:text-xl font-normal text-white gap-2 mx-5">
           <p>
             Are you a student who wants to learn English abroad? If so, you're
             in the right place.
@@ -125,15 +123,13 @@ function AboutUs() {
           </p>
         </div>
         <div
-          className="text-4xl text-white py-5 m-5 font-bold"
-          data-aos="zoom-out"
+          className="text-4xl text-white mt-12 mb-5 mx-5 font-bold"
+          data-aos="fade-down"
         >
           Mission & Vision
-          <div className="grid gap-5 md:grid-cols-2 items-center grid-cols-1 px-7  max-w-7xl pt-14">
-            <div
-              className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8"
-              data-aos="zoom-in"
-            >
+          </div>
+          <div className="grid gap-5 md:grid-cols-2 items-center grid-cols-1 px-7 pt-14">
+            <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8">
               <div className="flex items-center ">
                 {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
@@ -142,7 +138,7 @@ function AboutUs() {
                   Our Mission
                 </span>
               </div>
-              <p className=" text-xl text-white opacity-[.7] py-[1rem] font-semibold">
+              <p className=" text-base md:text-xl text-white opacity-[.7] py-[1rem] font-semibold">
                 Our mission is to make English accessible to everyone. We
                 believe language is must not be a limit in achieving one’s
                 dream, rather a leverage to propel them further in their life!
@@ -152,10 +148,7 @@ function AboutUs() {
               </p>
             </div>
 
-            <div
-              className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 "
-              data-aos="zoom-in"
-            >
+            <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 ">
               <div className=" flex items-center  ">
                 {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={trust} alt="" />
@@ -164,7 +157,7 @@ function AboutUs() {
                   Our Vision
                 </span>
               </div>
-              <p className=" text-xl text-white opacity-[.7] py-[1rem] font-semibold">
+              <p className=" text-base md:text-xl text-white opacity-[.7] py-[1rem] font-semibold">
                 Our vision is to help 1 billion students read, speak and write
                 the most used language in the world by a super-app which guides
                 step-by-step for a non-English speaker from application to the
@@ -172,17 +165,15 @@ function AboutUs() {
               </p>
             </div>
           </div>
-        </div>
+        
         <div
-          className="text-4xl text-white py-5 m-5 font-bold"
-          data-aos="zoom-out"
+          className="text-4xl text-white  mt-12 mb-5 mx-5  font-bold"
+          data-aos="fade-down"
         >
           Features & Benefits
-          <div className="grid gap-5 md:grid-cols-2 items-center grid-cols-1 px-7  max-w-7xl pt-14">
-            <div
-              className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8"
-              data-aos="zoom-in"
-            >
+          </div>
+          <div className="grid gap-5 md:grid-cols-2 items-center grid-cols-1 px-7 pt-14">
+            <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8">
               <div className="flex items-center ">
                 {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
@@ -191,7 +182,7 @@ function AboutUs() {
                   Features
                 </span>
               </div>
-              <p className=" text-xl text-white opacity-[.7] py-[1rem] font-semibold">
+              <p className=" text-base md:text-xl text-white opacity-[.7] py-[1rem] font-semibold">
                 <p>
                   • Selection of English Schools best suited for you are
                   available in-app.
@@ -208,10 +199,7 @@ function AboutUs() {
               </p>
             </div>
 
-            <div
-              className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 "
-              data-aos="zoom-in"
-            >
+            <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 ">
               <div className=" flex items-center  ">
                 {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={trust} alt="" />
@@ -220,7 +208,7 @@ function AboutUs() {
                   Benefits
                 </span>
               </div>
-              <p className=" text-xl text-white opacity-[.7] py-[1rem] font-semibold">
+              <p className="text-base md:text-xl text-white opacity-[.7] py-[1rem] font-semibold">
                 <p>
                   • Save time by choosing only from the schools best suited for
                   you (No hassle of checking through multiple tabs)
@@ -236,7 +224,8 @@ function AboutUs() {
               </p>
             </div>
           </div>
-        </div>
+        <br />
+        <br />
       </div>
       <FooterDiv />
     </div>

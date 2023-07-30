@@ -9,30 +9,30 @@ const ContactUs = () => {
   return (
     <>
       <NavBar />
-      <div className="bg-gray-900 h-screen w-full grid place-items-center">
+      <div className="bg-gray-900">
         <header
           className="w-full h-screen pt-4 pb-7 bg-cover bg-center flex justify-center items-center"
           style={{ backgroundImage: `url(${hero})` }}
         >
           <div className=" bg-gray-900 rounded-full p-9">
-            <div className=" text-center text-transparent text-6xl font-bold bg-gradient-to-br from-red-500  to-blue-500 bg-clip-text ">
+            <div className=" text-center text-transparent text-4xl md:text-5xl font-bold bg-gradient-to-br from-red-500  to-blue-500 bg-clip-text">
               Contact Us
             </div>
           </div>
         </header>
         <br />
-        <div className="bg-gray-900 min-h-screen w-full grid place-items-center">
-          <div className="bg-white rounded-md shadow-md flex flex-col md:flex-row">
+        <div className="bg-gray-900 min-h-screen w-full flex-1 md:grid place-items-center">
+          <div className="bg-white rounded-md shadow-md grid grid-cols-1 md:grid-cols-2 m-10">
             {/* contact information */}
             <div
               className="bg-gradient-to-br from-red-500 to-blue-500 p-8 md:hover:scale-y-110 rounded-md transition px-6 py-4"
               id="contact_info"
             >
-              <div className="flex justify-between">
+              <div className="grid justify-between">
                 {/* page title */}
                 <h2 className="text-white text-2xl">Contact Information</h2>
               </div>
-              <div className="mt-6 flex-row">
+              <div className="mt-6">
                 <div>
                   {/* icon */}
                   <svg
@@ -53,7 +53,7 @@ const ContactUs = () => {
                   <p className="text-white text-lg">people@thetermtime.com</p>
                 </div>
               </div>
-              <div className="mt-6 flex-row">
+              <div className="mt-6 ">
                 <div>
                   {/* icon */}
                   <svg
@@ -73,14 +73,14 @@ const ContactUs = () => {
                   <h2 className="text-white text-xl">Phone:</h2>
                   <p className="text-white text-lg">+44 7767 197516</p>
                 </div>
-                <div className="social-links mt-8 flex-row ">
-                  <span className="second-text text-xl text-white">
-                    Connect with us:
-                  </span>
-                  <div className="icons flex gap-4 py-[1rem] pb-[30px]">
-                    <AiFillInstagram className=" p-[8px] h-[40px] w-[40px] rounded-full icon hover:text-gray-800 text-white opacity-80 bg-gradient-to-t" />
-                    <BsLinkedin className=" p-[8px] h-[40px] w-[40px] rounded-full icon hover:text-gray-800 text-white opacity-80 bg-gradient-to-t" />
-                  </div>
+              </div>
+              <div className="social-links mt-8 ">
+                <div className="second-text text-xl text-white">
+                  Connect with us:
+                </div>
+                <div className="icons gap-4 py-[1rem] pb-[30px] flex">
+                  <AiFillInstagram className=" p-[8px] h-[40px] w-[40px] rounded-full icon hover:text-gray-800 text-white opacity-80 bg-gradient-to-t" />
+                  <BsLinkedin className=" p-[8px] h-[40px] w-[40px] rounded-full icon hover:text-gray-800 text-white opacity-80 bg-gradient-to-t" />
                 </div>
               </div>
             </div>
@@ -88,26 +88,26 @@ const ContactUs = () => {
             {/* contact us form */}
             <div id="contact_us" className="px-6 py-4">
               <div>
-                <div className="flex justify-between">
+                <div className="grid justify-between">
                   {/* page title */}
                   <h2 className="gradient-bg text-3xl">Get In Touch</h2>
                 </div>
               </div>
               <div>
-                <div className="flex flex-row justify-between gap-2">
+                <div className="grid lg:flex justify-between gap-2">
                   <input
                     type="text"
                     placeholder="First Name"
-                    className="w-full text-xs px-3 h-8 my-4 outline-none rounded-md border focus:shadow-sm"
+                    className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
                   />
                   <input
                     type="text"
                     placeholder="Last Name"
-                    className="w-full text-xs px-3 h-8 my-4 outline-none rounded-md border focus:shadow-sm"
+                    className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
                   />
                 </div>
 
-                <div className="flex justify-between gap-2">
+                <div className="grid lg:flex justify-between gap-2 mt-2">
                   <input
                     type="text"
                     placeholder="Your Email"
@@ -119,23 +119,25 @@ const ContactUs = () => {
                     className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
                   />
                 </div>
-                <div className="flex justify-between m-2">
+                <div className="grid lg:flex justify-between m-2">
                   <div className="text-md text-slate-600">Gender:</div>
                 </div>
-                <div className="p-1 m-2">
+                <div className="p-1 m-2 mr-10 lg:mr-64 ">
                   <div className="flex justify-between gap-2 text-sm">
                     <input type="radio" name="Gender" value="Male" />
                     <label htmlFor="Male">Male</label>
                     <input type="radio" name="Gender" value="Female" />
                     <label htmlFor="Female">Female</label>
-                    <input
-                      type="text"
-                      placeholder="Your City"
-                      className="w-48 text-xs px-3 h-8 m-22 my-1 outline-none rounded-md border focus:shadow-sm"
-                    />
                   </div>
                 </div>
-                <div className="flex justify-between gap-2">
+                <div className=" grid mr-5 lg:mr-0">
+                  <input
+                    type="text"
+                    placeholder="Your City"
+                    className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
+                  />
+                </div>
+                <div className="grid lg:flex justify-between gap-2">
                   <select
                     name="country"
                     placeholder="Select Category"
