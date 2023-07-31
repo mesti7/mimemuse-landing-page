@@ -10,7 +10,6 @@ function Countries() {
   return (
     <div className=" bg-gray-900">
       <div className="max-w-[1240px] m-auto">
-
         <h1
           className=" pl-6 pr-6 text-4xl pb-[.5rem] font-bold mt-12 bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text"
           data-aos="fade-down"
@@ -21,7 +20,7 @@ function Countries() {
           className=" pr-6 pl-6 text-2xl font-semibold text-white"
           data-aos="fade-down"
         >
-          Our Recommended Courses
+          Our Recommended Countries
         </h2>
 
         <br />
@@ -32,7 +31,7 @@ function Countries() {
               className="rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                General English
+                United States of America
               </div>
             </div>
           </div>
@@ -43,7 +42,7 @@ function Countries() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                super intensive english
+                United Kingdom
               </div>
             </div>
           </div>
@@ -54,7 +53,7 @@ function Countries() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                ielts preparation
+                Ireland
               </div>
             </div>
           </div>
@@ -65,7 +64,7 @@ function Countries() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                professional english
+                Canada
               </div>
             </div>
           </div>
@@ -76,7 +75,7 @@ function Countries() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                academic english
+                Australia
               </div>
             </div>
           </div>
@@ -87,7 +86,7 @@ function Countries() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                junior summerschool
+                Newzealand
               </div>
             </div>
           </div>

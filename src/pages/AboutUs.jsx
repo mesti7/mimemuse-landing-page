@@ -36,19 +36,15 @@ function AboutUs() {
         <div className=" text-3xl py-[2rem] font-semibold bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text">
           What’s The Term Time?
         </div>
-        <div className=" text-base text-white opacity-[.7]">
+        <div className=" text-base text-white opacity-[.7] leading-loose text-[19px] ">
           An app who connects students to English language schools abroad and
           helps them from application to attending classes in-person at their
-          preferred destination. An app that supports students in joining
-          English language schools from application to attending classes
-          in-person at their preferred destination. An app that supports
-          students in joining English language schools from application to
-          graduation at their preferred destination.
+          preferred destination.
         </div>
         <h2 className="text-3xl py-[2rem] font-semibold bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text ">
           Description
         </h2>
-        <div className="text-base text-white opacity-[.7]">
+        <div className="text-base text-white opacity-[.7] leading-loose text-[19px]">
           <p>
             TheTermTime is the ultimate solution for international students
             seeking to learn English abroad. With one app and one goal in mind –
@@ -93,16 +89,16 @@ function AboutUs() {
           Mission & Vision
         </div>
         <div className="grid gap-5 md:grid-cols-2 items-center grid-cols-1 px-7 mt-8">
-          <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8">
+          <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 h-auto lg:h-64">
             <div className="flex items-center ">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
               </div> */}
-              <span className=" font-semibold text-white text-xl">
+              <span className=" font-semibold text-white text-xl items-start ">
                 Our Mission
               </span>
             </div>
-            <p className=" text-base text-white opacity-[.7] py-[1rem] ">
+            <p className=" text-base text-white opacity-[.7] py-[1rem] items-start ">
               Our mission is to make English accessible to everyone. We believe
               language is must not be a limit in achieving one’s dream, rather a
               leverage to propel them further in their life! Because you see the
@@ -111,16 +107,16 @@ function AboutUs() {
             </p>
           </div>
 
-          <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 ">
-            <div className=" flex items-center  ">
+          <div className="singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] pb-8 h-auto lg:h-64 ">
+            <div className=" flex items-start  ">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={trust} alt="" />
               </div> */}
-              <span className=" text-white text-xl pt-6 font-semibold">
+              <span className=" text-white text-xl font-semibold items-start ">
                 Our Vision
               </span>
             </div>
-            <p className=" text-base text-white opacity-[.7] py-[1rem]">
+            <p className=" text-base text-white opacity-[.7] py-[1rem] items-start ">
               Our vision is to help 1 billion students read, speak and write the
               most used language in the world by a super-app which guides
               step-by-step for a non-English speaker from application to the
@@ -136,38 +132,39 @@ function AboutUs() {
           Features & Benefits
         </div>
         <div className="mt-8">
-            {/* <div className="flex items-center ">
+          {/* <div className="flex items-center ">
               <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
               </div>
             </div> */}
-            <p className=" text-base text-white opacity-[.7]">
-              <p>
-                • Selection of English Schools best suited for you are available
-                in-app.
-              </p>
-              <p className="mt-2">
-                • Step by Step guide on the process of learning English abroad.
-              </p>
-              <p className="mt-2">
-                • Super app with all services needed to start from application
-                to graduating the course, including scheduling classes, booking
-                travel, accommodation and more.
-              </p>
-              <p className="mt-2">
-                • Save time by choosing only from the schools best suited for
-                you (No hassle of checking through multiple tabs)
-              </p>
-              <p className="mt-2">
-                • Complete clarity from A to Z on how to start learning English.
-                (No confusion on how to start and where to end)
-              </p>
-              <p className="mt-2">
-                • Stress-free studying (No overwhelm with having separate apps
-                to reach one goal)
-              </p>
+          <p className=" text-base text-white opacity-[.7] items-center text-[19px]">
+            <p className="leading-relaxed flex gap-2">
+              <div className="flex">•</div>Selection of English Schools best suited for you are available
+              in-app.
             </p>
-          </div>
+
+            <p className="mt-3 leading-relaxed flex gap-2">
+            <div className="flex">•</div>Step by Step guide on the process of learning English abroad.
+            </p>
+            <p className="mt-3 leading-relaxed flex gap-2">
+            <div className="flex">•</div>Super app with all services needed to start from application to
+              graduating the course, including scheduling classes, booking
+              travel, accommodation and more.
+            </p>
+            <p className="mt-3 leading-relaxed flex gap-2">
+            <div className="flex">•</div>Save time by choosing only from the schools best suited for you
+              (No hassle of checking through multiple tabs)
+            </p>
+            <p className="mt-3 leading-relaxed flex gap-2">
+            <div className="flex">•</div>Complete clarity from A to Z on how to start learning English.
+              (No confusion on how to start and where to end)
+            </p>
+            <p className="mt-3 leading-relaxed flex gap-2">
+            <div className="flex">•</div>Stress-free studying (No overwhelm with having separate apps to
+              reach one goal)
+            </p>
+          </p>
+        </div>
         <br />
       </div>
       <FooterDiv />

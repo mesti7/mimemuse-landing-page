@@ -32,6 +32,9 @@ const FooterDiv = () => {
               Blog
             </li>
             <li className=" text-white hover:text-gray-900 opacity-70 leading-7">
+              News & Updates
+            </li>
+            <li className=" text-white hover:text-gray-900 opacity-70 leading-7">
               About Us
             </li>
             <li className=" text-white hover:text-gray-900 opacity-70 leading-7 pb-[30px]">

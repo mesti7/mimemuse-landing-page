@@ -45,7 +45,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                super intensive english
+                Super Intensive English
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                ielts preparation
+                IELTS Preparation
               </div>
             </div>
           </div>
@@ -67,7 +67,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                professional english
+                Professional English
               </div>
             </div>
           </div>
@@ -78,7 +78,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                academic english
+                Academic English
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                junior summerschool
+                Junior Summerschool
               </div>
             </div>
           </div>
@@ -100,7 +100,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                professional english
+                Professional English
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ function Courses() {
               className=" rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
-                professional english
+                Professional English
               </div>
             </div>
           </div>

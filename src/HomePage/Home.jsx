@@ -47,7 +47,7 @@ export const Home = () => {
           The values that holds us true
         </h1>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-3 items-center">
-          <div className=" mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
+          <div className=" mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] lg:h-44 sm:h-auto">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={simple} alt="" />
@@ -62,7 +62,7 @@ export const Home = () => {
             </p>
           </div>
 
-          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] lg:h-44 sm:h-auto">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={trust} alt="" />
@@ -76,7 +76,7 @@ export const Home = () => {
               through authenticity and transparency
             </p>
           </div>
-          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem]">
+          <div className="mx-8 singleGrid rounded-[10px] bg-gradient-to-br from-red-500 to-blue-500 p-[1.5rem] lg:h-44 sm:h-auto">
             <div className=" flex items-center gap-3">
               {/* <div className="imgDiv p-[4px] rounded-[.8rem] bg-inherit-[#dedef8] h-[40px] w-[40px] flex items-center justify-center">
                 <img src={social} alt="" />
