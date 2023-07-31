@@ -6,7 +6,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 const FooterDiv = () => {
   return (
     <div className=" bg-gray-900 pt-10 pb-10">
-      <div className="footer flex-1 md:flex md:flex-row p-9 mx-12 bg-gradient-to-br from-red-500 to-blue-500 rounded-[10px] gap-24 m-auto items-center justify-center">
+      <div className="footer flex-1 md:flex md:flex-row p-9 mx-5 lg:mx-12 bg-gradient-to-br from-red-500 to-blue-500 rounded-[10px] gap-24 m-auto items-center justify-center">
         <div>
           <div className="logoDiv">
             <h1 className="logo text-[25px] text-white pb-[.5rem] pt-[30px]">

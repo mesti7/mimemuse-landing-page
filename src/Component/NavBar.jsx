@@ -25,9 +25,15 @@ const NavBar = () => {
             </li>
           </Link>
 
-          <Link to="/Course">
+          <Link to="/Blog">
             <li className="menuList text-lg bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">
               Blog
+            </li>
+          </Link>
+
+          <Link to="/News">
+            <li className="menuList text-lg bg-gradient-to-br from-red-500 to-blue-500 text-transparent bg-clip-text hover:text-white">
+              News&Updates
             </li>
           </Link>
 
