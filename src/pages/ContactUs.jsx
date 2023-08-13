@@ -11,6 +11,8 @@ import emailjs from "@emailjs/browser";
 function ContactUs() {
   const form = useRef();
   const [isMessageSent, setIsMessageSent] = useState(false);
+  const [countryCode, setCountryCode] = useState("+");
+  const [PhoneNumber, setPhoneNumber] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -29,11 +31,19 @@ function ContactUs() {
         setTimeout(() => {
           form.current.reset();
           setIsMessageSent(false);
+          window.location.reload();
         }, 2000);
       })
       .catch((error) => {
         console.log(error.text);
       });
+  };
+
+  const handleCountryCodeChange = (e) => {
+    setCountryCode(e.target.value);
+  };
+  const handlePhoneNumber = (e) => {
+    setPhoneNumber(e.target.value);
   };
 
   return (
@@ -147,12 +157,31 @@ function ContactUs() {
                       name="user_email"
                       className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
                     />
-                    <input
+
+                    {/* Add more country codes as needed */}
+                      <input
+                        type="text"
+                        placeholder="Phone Number"
+                        name="user_countryCode"
+                        value={countryCode}
+                        onChange={(e) => setCountryCode(e.target.value)} // Update the state on input change
+                        className="w-16 text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
+                      />
+                      <input
+                        type="text"
+                        placeholder="Phone Number"
+                        name="user_phone_number"
+                        value={PhoneNumber}
+                        onChange={handlePhoneNumber} // Update the state on input change
+                        className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
+                      />
+
+                    {/* <input
                       type="text"
                       placeholder="Phone Number"
                       name="user_phone_number"
                       className="w-full text-xs px-3 h-8 my-2 outline-none rounded-md border focus:shadow-sm"
-                    />
+                    /> */}
                   </div>
                   <div className="grid lg:flex justify-between m-2">
                     <div className="text-md text-slate-600">Gender:</div>

@@ -31,7 +31,7 @@ function Courses() {
           <div className=" hover:bg-gradient-to-br from-red-500 to-blue-500 rounded-tl-3xl rounded-br-3xl p-4">
             <div
               style={{ backgroundImage: `url(${c1})` }}
-              className=" hover:scale-y-105 rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
+              className=" hover:scale-y-105 hover:scale-x-105 rounded-tl-3xl rounded-br-3xl bg-center bg-cover bg-no-repeat text-sm md:text-base text-white text-center pt-40 h-56"
             >
               <div className=" bg-gray-900 mx-4 rounded-full p-2 bg-opacity-60">
                 General English
